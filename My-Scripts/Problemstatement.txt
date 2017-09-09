@@ -1,0 +1,64 @@
+﻿Problem statement
+
+
+The drainage system is an essential part of the backbone of a metropolis’s development.
+
+
+1.) The drainage system of any metropolis has always been neglected but it has to be a substantial issue that must be taken care of while developing the roots of the same. In fact, these cities are the ones that are majorly affected from drainage problems in spite of having a huge budget for the drainage system.
+
+
+2.) Therefore, in the recent times when government and organizations while working towards making cities smarter in terms of providing electricity, transportation, internet services etc. they must also include a drainage system that is well planned and operated, supports urban sanitation and related activities. 
+
+
+3.) Effective sewage management is essential for maintaining ecosystem integrity. 
+
+
+The idea behind this drainage system is to efficiently use the current technologies to reduce sewer clogging and manpower that is required to handle the same.
+
+
+The purpose of our project is to automate the whole drainage system, minimize the costs of cleaning and repairing the sewers and eliminate health risks associated with the scavengers removing clogs from the sewers, like exposure to potentially poisonous gases and lifting hazards due to heavy conventional manhole lids.
+
+
+
+
+Approach
+
+
+        1.)Modules and Technology involved :-
+
+
+        1.1) Smart Manhole Lid:-
+
+
+        It will inhouse the control circuitry including the microcontroller, sensors, input power jack etc. and protect the same from sewage.  
+        It will monitor the sewage level using ultrasonic sensing technique. Suppose, if the sewage level crosses the upper threshold, it transmits a particular flag to the central monitoring system(CMS). 
+
+
+        Fibre reinforced plastic(FRP) will be used as our base material, since it eliminates the growing cost and headaches of theft (FRP has zero scrap value).
+
+
+        1.2) Underground rover surveillance:- 
+
+
+        A rover with monitoring technology will be used to remove the clog inside the sewer. It will capture the real time footage and further systems will be incorporated within to remove the clog inside the sewer.
+
+
+        The rover tracks will be installed throughout the roof of sewer channel. This will help the rover to commute across the network and will lock it to the roof.
+
+
+        1.3) Central Monitoring System:- 
+
+
+        This is used to monitor and process the real time data received from all the manhole transceivers. The signals are mapped on a virtual map just like in railway monitoring systems. Wireless transceiver will be used to communicate with the CMS. A predictive algorithm will predict where the sewer is being clogged using the data it received from the transceiver.
+
+
+        2.)Challenges:-
+
+
+        2.1)Complexity of the rover: Once the location of the clog is detected.In order to clear it, the rover has to use sophisticated cleaning technology.
+
+
+        2.2)CMS will need a GUI where the real time location of manholes and the rover has to be displayed, to facilitate the technician in CMS center to act accordingly.
+
+
+        2.3)The chemical used for cleaning the clog by the rover must not affect the overall biochemical oxygen demand.
